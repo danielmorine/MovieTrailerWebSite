@@ -42,9 +42,35 @@ um mundo real enquanto usa os cerebros e corpos dos individuos para produzir ene
     "2h 30min",
     "Ficcao Cientifica",
      "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving")
+american = media.Movie(
+    "AMERICAN PIE 3",
+    "Mesmo que Jim e Michelle namorem ha varios anos, ela ainda fica \
+surpresa quando ele pede sua mao em casamento em seu restaurante \
+favorito. Depois que ela alegremente concorda, Jim pede aos seus melhores \
+amigos, Kevin e Paul, para ajuda-lo a ter certeza de que tudo de certo no dia \
+do casamento. Com a aproximacao do grande dia, um problema surge quando \
+o trio descobre que seu amigo Stifler esta na cidade.",
+    "http://images.killermovies.com/a/americanpie3/american_pie_poster.jpg",
+    "https://www.youtube.com/watch?v=Wxk0b07KrbE",
+    "Jesse Dylan",
+    "1h 43min",
+    "Romance/Comedia",
+    "Alyson Hannigan, Eddie Kaye Thomas, Jason Biggs, Seann William Scott")
+cidade = media.Movie(
+    "CIDADE DE DEUS",
+    "Nas favelas do Rio de Janeiro dos anos 1970, dois rapazes seguem \
+caminhos diferentes. Buscape e um fotografo que registra o cotidiano \
+violento do lugar, e Ze Pequeno e um ambicioso traficante que usa as \
+fotos de Buscape para provar como e durao.",
+    "https://acasadevidro.files.wordpress.com/2015/07/cidade-de-deus.png",
+    "https://www.youtube.com/watch?v=pUt-yPxOZqk",
+    "Fernando Meirelles, Katia Lund",
+    "2h 15min",
+    "Drama/Filme Policial",
+    "Alexandre Rodrigues, Leandro Firmino, Phellipe Haagensen")
 
 # PASSANDO CADA FLME EM UMA LISTA DE ARRAY
-movies = [thor, matrix]
+movies = [thor, matrix, american, cidade]
 
 # Executar arquivo e passar(movies)
 fresh_tomatoes.open_movies_page(movies)
